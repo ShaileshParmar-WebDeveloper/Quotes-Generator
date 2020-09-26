@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather:ital@1&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: wheat;
+}
+
+.innerContainer {
+  height: 60vh;
+  width: 50vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px;
+  position: relative;
+  box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.47);
+}
+
+.quote {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0px;
+  font-family: "Merriweather", serif;
+}
+
+.author {
+  margin-left: auto;
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+}
+
+.btns {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5vh;
+}
+.btn {
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  font-family: "Merriweather", serif;
+}
+#tweetMe {
+  background-color: rgb(29, 161, 242);
+}
+
+#btn {
+  background-color: #f25d37;
+}
+
+#tweetMe:hover {
+  background-color: #1a91da;
+}
+
+#btn:hover {
+  background-color: #d45333;
+}
